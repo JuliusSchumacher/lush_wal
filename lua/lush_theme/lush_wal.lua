@@ -341,7 +341,7 @@ LspDiagnosticsDefaultHint            { fg=c.green};
 -- LspDiagnosticsVirtualTextInformation { };
 -- LspDiagnosticsVirtualTextHint        { };
 
-LspDiagnosticsUnderlineError         { gui=undercurl };
+LspDiagnosticsUnderlineError         { sp="red",gui=undercurl};
 LspDiagnosticsUnderlineWarning       { gui=undercurl };
 LspDiagnosticsUnderlineInformation   { gui=undercurl };
 LspDiagnosticsUnderlineHint          { gui=undercurl };
