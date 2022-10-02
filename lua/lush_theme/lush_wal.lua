@@ -83,8 +83,8 @@ palette.dark = {
 
     shades = {
         red     = colors(2).darken(20);
-        yellow  = colors(3).darken(20);
-        green   = colors(4).darken(20);
+        green   = colors(3).darken(20);
+        yellow  = colors(4).darken(20);
         cyan    = colors(5).darken(20);
         blue    = colors(6).darken(20);
         magenta = colors(7).darken(20);
@@ -92,8 +92,8 @@ palette.dark = {
 
     tones = {
         red     = colors(2);
-        yellow  = colors(3);  --orange
-        green   = colors(4);
+        green   = colors(3);
+        yellow  = colors(4);
         cyan    = colors(5);
         blue    = colors(6);
         magenta = colors(7);
@@ -222,7 +222,7 @@ Constant       { fg=c.green };
 String         { fg=b.blue};
 Character      { fg=b.blue };
 Number         { fg=b.green };
-Boolean        { fg=b.green };
+Boolean        { fg=b.green, gui=bf };
 -- Float          { };
 
 Statement      { fg=c.red };
