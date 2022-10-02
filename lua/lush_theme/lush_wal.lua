@@ -133,11 +133,11 @@ local theme = lush(function()
   return {
 ---- :help highlight-default -------------------------------
 
-Normal       { fg=g.fg, bg=g.bg };
+Normal       { fg=g.fg };
 NormalFloat  { bg=g.overbg };
 -- NormalNC     { };
 
--- Cursor       { };
+Cursor       { fg=g.bg,bg=b.blue};
 -- lCursor      { };
 -- CursorIM     { };
 -- TermCursor   { };
