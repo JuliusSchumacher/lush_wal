@@ -386,6 +386,9 @@ netrwSymLink         { fg=c.magenta };
 HelpHyperTextJump    { fg=c.yellow };
 IndentBlanklineContextChar { fg=b.red, gui="nocombine"};
 
+IndentBlankline {fg = g.faded.darken(60)},
+IndentBlanklineScope {fg = g.faded.darken(40)},
+
 
 ---- Metagroup (hack for builds) ---------------------------
 Melange { lush = palette[bg] };
