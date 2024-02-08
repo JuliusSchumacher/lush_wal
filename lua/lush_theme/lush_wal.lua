@@ -206,10 +206,10 @@ DiffRemoved  { DiffDelete };
 
 ---- :help spell -------------------------------------------
 
-SpellBad     { fg=c.red,    gui=undercurl };
-SpellCap     { fg=c.blue,   gui=undercurl };
-SpellLocal   { fg=c.yellow, gui=undercurl };
-SpellRare    { fg=b.yellow, gui=undercurl };
+SpellBad     { sp=c.red,    gui=undercurl };
+SpellCap     { sp=c.blue,   gui=undercurl };
+SpellLocal   { sp=c.yellow, gui=undercurl };
+SpellRare    { sp=b.yellow, gui=undercurl };
 
 
 ---- :help group-name --------------------------------------
@@ -225,7 +225,7 @@ Number         { fg=b.green };
 Boolean        { fg=b.green, gui=bf };
 -- Float          { };
 
-Statement      { fg=c.red };
+Statement      { fg=b.red };
 -- Conditional    { };
 -- Repeat         { };
 -- Label          { };
@@ -272,7 +272,7 @@ Todo           { Comment, fg=g.faded };
 TSConstBuiltin       { Constant, gui=it };
 TSConstMacro         { Constant };
 -- TSConstructor        { };
--- TSError              { gui=undercurl };
+TSError              { gui=undercurl };
 -- TSException          { };
 -- TSField              { };
 -- TSFloat              { };
@@ -345,6 +345,9 @@ LspDiagnosticsUnderlineError         { sp="red",gui=undercurl};
 LspDiagnosticsUnderlineWarning       { gui=undercurl };
 LspDiagnosticsUnderlineInformation   { gui=undercurl };
 LspDiagnosticsUnderlineHint          { gui=undercurl };
+
+DiagnosticUnderlineError            { sp="red",gui=undercurl};
+DiagnosticUnderlineWarn            { sp=c.yellow,gui=undercurl};
 
 -- LspDiagnosticsFloatingError          { };
 -- LspDiagnosticsFloatingWarning        { };
